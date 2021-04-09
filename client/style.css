@@ -1,0 +1,240 @@
+body {
+    background-color: ghostwhite;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2 {
+    color: darkblue;
+    font-family: "Lato";
+    text-align: center;
+}
+
+h3 {
+    font-family: "Lato";
+    text-align: center;
+}
+
+p {
+    font-family: "Lato";
+    color: darkblue;
+}
+
+a {
+    padding: 0px 5px;
+}
+
+span {
+    color: darkblue;
+    font-family: "Lato";
+}
+
+.buttonWelcome {
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: darkblue;
+    border: 2px solid darkblue;
+    border-radius: 10px;
+    transition-duration: 0.6s;
+}
+
+button:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+[type="text"],
+[type="email"],
+[type="password"] {
+    padding: 0.5em;
+    margin: 0.5em 0.5em;
+    font-family: "Lato";
+}
+
+.inputHome {
+    width: 80%;
+}
+
+.logo {
+    width: 80px;
+}
+
+.logout {
+    width: 40px;
+    padding-right: 20px;
+}
+
+.mrgn-top {
+    margin-top: 5%;
+}
+
+.mrgn-btm {
+    margin-bottom: 10px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.algn-center {
+    align-items: center;
+}
+
+.jstf-btw {
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+
+.jstf-center {
+    justify-content: center;
+}
+
+.tweetsUser {
+    margin: 6px 2px;
+}
+
+.profilePicSmall {
+    width: 80px;
+    height: 80px;
+    border: 2px solid darkblue;
+    box-sizing: border-box;
+}
+
+.friendPics {
+    width: 60px;
+    height: 60px;
+}
+
+.joinedPics {
+    width: 100px;
+    height: 120px;
+}
+
+.profilePicBig {
+    width: 150px;
+    height: 200px;
+}
+
+.w-max {
+    width: max-content;
+}
+
+.inline {
+    display: inline;
+}
+
+.btnText {
+    border: none;
+    background: none;
+    color: red;
+}
+
+.findPeople {
+    height: 100%;
+}
+
+.border-btm {
+    border-bottom: 2px solid darkblue;
+    padding: 5px 0;
+}
+
+#chat-message {
+    height: 200px;
+    width: 500px;
+    border: 1px solid black;
+    overflow-y: auto;
+}
+
+@keyframes spinner {
+    0% {
+        transform: translate3d(-50%, -50%, 0) rotate(0deg);
+    }
+    100% {
+        transform: translate3d(-50%, -50%, 0) rotate(360deg);
+    }
+}
+
+.spin {
+    animation: 1s linear infinite spinner;
+    animation-play-state: inherit;
+    border: solid 8px #cfd0d1;
+    border-bottom-color: darkblue;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    transform: translate3d(-50%, -50%, 0);
+    will-change: transform;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 25% 1fr 25%;
+    grid-template-rows: 33% 33% 33%;
+}
+
+.profile {
+    grid-column: 1/2;
+    grid-row: 1/4;
+    margin: 0 10px;
+}
+
+.homeFeed {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.findPeople {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.chat {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    align-self: end;
+    justify-self: center;
+}
+
+.friends {
+    grid-column: 3/4;
+    grid-row: 1/4;
+}
+
+.tweets {
+    overflow-y: scroll;
+}
+
+/* BORDERS FOR BUILDING PURPOSES */
+
+.border-green {
+    border: 2px solid green;
+}
+
+.border-blue {
+    border: 2px solid blue;
+}
+
+.border-red {
+    border: 2px solid red;
+}
+
+.border-orange {
+    border: 2px solid orange;
+}
+
+.border-yellow {
+    border: 2px solid yellow;
+}
+
+/* BORDERS FOR BUILDING PURPOSES */
